@@ -257,18 +257,6 @@ body {
   background-size: auto 100% !important;
 }
 
-/* Nota: questa seconda regola su body sovrascrive l'immagine di sfondo
-   sopra — è voluta, o è un residuo da un test precedente? Se vuoi tenerne
-   solo una fammi sapere. */
-body {
-  background-image: url("https://i.imgur.com/eoMtR7h.jpg");
-  background-position: 50% 50%;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-
 /* ------------------------------------------------------------
    5. HOKAZE — VARIABILI DI CONFIGURAZIONE
    ------------------------------------------------------------ */
