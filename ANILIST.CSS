@@ -1,0 +1,936 @@
+/* --------------stats3--------------------------------------------- */
+
+@media (max-width: 1540px) {
+    .stats-wrap {
+        grid-template-columns: 1fr;
+        grid-column-gap: 0;
+        gap: 28px;
+    }
+}
+
+
+.milestones .milestone:after {
+    padding-top: 0px !important;
+}
+
+.stats-wrap .footer .milestones {
+    height: 25px;
+    padding: 5px 0px;
+}
+
+.stats-wrap .stat:nth-child(3) .value {
+    font-size: 4rem;
+}
+
+.stats-wrap .stat:nth-child(3) .label {
+    font-size: 1em;
+}
+
+.stats-wrap > .list-stats > .stats-wrap {
+    grid-auto-flow: inherit;
+    align-items: center;
+    row-gap: 1.2rem;
+    grid-template-areas: 
+            "c c a"
+            "c c b";
+}
+
+.stats-wrap .stat:nth-child(1) {
+    grid-area: a;
+
+}
+
+.stats-wrap .stat:nth-child(2) {
+    grid-area: b;
+}
+
+.stats-wrap .stat:nth-child(3) {
+    grid-area: c;
+}
+
+.activity-feed-wrap, .activity-feed-wrap + div {
+    margin-top: 25px;
+}
+
+/* ---------------------BANNER REMOVER-------------------------------- */
+
+/*banner remove*/
+
+.hohDownload {
+    display: none;
+}
+
+.banner {
+    background-image: none !important;
+    background-color: rgb(36, 37, 56, 0) !important;
+}
+
+.banner .shadow {
+    background: none !important;
+}
+.banner[data-v-1cc2919e]{
+	height: auto;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* ERGO PROXY */
+a.favourite[href*="/anime/790/"] { 
+    background-image: url("https://i.imgur.com/TOd0iHU.gif") !important;
+}
+a.favourite[href*="/character/643/"] { 
+    background-image: url("https://i.imgur.com/ctFCfYf.jpg") !important;
+	background-size: 137%;
+	background-position-y: 32%;
+}
+/* GITS */
+a.favourite[href*="/anime/43/"] { 
+    background-image: url("https://i.imgur.com/eOx0WYN.gif") !important;
+}
+a.favourite[href*="/character/1795/"] { 
+    background-image: url("https://i.imgur.com/Hrgtc0E.jpg") !important;
+	background-size: 130%;
+}
+/*FAYE VALENTINE*/
+a.favourite[href*="/character/2/"] { 
+    background-size: 130%;
+}
+
+/*MISATO*/
+a.favourite[href*="/character/1259/"] { 
+    background-image: url(https://i.imgur.com/PNV6Q3p.jpg) !important;
+    background-size: 386%;
+    background-position-y: 28%;
+    background-position-x: 55%;
+}
+/*AKIRA*/
+a.favourite[href*="/anime/47/"] { 
+    background-image: url("https://i.imgur.com/AGUaqGn.gif") !important;
+}
+/*ALITA*/
+a.favourite[href*="/character/2308/"] { 
+    background-image: url(https://i.imgur.com/ghEQGfW.jpg) !important;
+    background-size: 348%;
+    background-position-y: 8%;
+    background-position-x: 19%;
+}
+/*a.favourite[href*="/manga/30768/"] { 
+    background-image: url("https://i.imgur.com/JpCMnId.jpg") !important;
+}*/
+/*LAIN*/
+a.favourite[href*="/anime/339/"] { 
+    /*background-image: url("https://i.imgur.com/YWpwraX.gif") !important;*/
+	background-image: url("https://i.imgur.com/r92wWo3.gif") !important;
+	background-size: 209%;
+    background-position-y: 39%;
+    background-position-x: 96%;
+}
+/*EoE*/
+a.favourite[href*="/anime/32/"] { 
+    background-image: url("https://i.imgur.com/4JbUSOi.gif") !important;
+}
+/*Eva*/
+a.favourite[href*="/anime/30/"] { 
+    background-image: url("https://i.imgur.com/uFUZ4NH.gif") !important;
+}
+
+/* COWBOYBEBOP */
+a.favourite[href*="/anime/1/"] { 
+    background-image: url("https://i.imgur.com/0olWZvu.gif") !important;
+	background-position-x: 91%;
+}
+/* GITS SAC */
+a.favourite[href*="/anime/467/"] { 
+    background-image: url("https://i.imgur.com/NXDqZI9.gif") !important;
+}
+/* EDGERUNNERS */
+a.favourite[href*="/anime/120377/"] { 
+    background-image: url("https://i.imgur.com/TZSaeMl.gif") !important;
+}
+/* Z GUNDAM */
+a.favourite[href*="/anime/85/"] { 
+    background-image: url("https://i.imgur.com/7TOOk5S.gif") !important;
+}
+/* PLUTO */
+a.favourite[href*="/anime/99088/"] { 
+    background-image: url("https://i.imgur.com/pofgcww.gif") !important;
+	background-position-x: 58%;
+}
+/* CYBER CITY OEDO */
+a.favourite[href*="/anime/1352/"] { 
+    background-image: url("https://i.imgur.com/Ds8yv2R.gif") !important;
+}
+/* GUNDAM IBO */
+a.favourite[href*="/anime/21268/"] { 
+    background-image: url("https://i.imgur.com/P14n0an.gif") !important;
+}
+/* GITS 2026 */
+a.favourite[href*="/anime/177699/"] { 
+    background-image: url("https://i.imgur.com/GXPhQTP.gif") !important;
+}
+/* MEMORIES */
+a.favourite[href*="/anime/1462/"] { 
+    background-image: url("https://i.imgur.com/bMKGsd1.gif") !important;
+}
+/* HEAVENLY DELUSION ANIME */
+a.favourite[href*="/anime/155783/"] { 
+    background-image: url("https://i.imgur.com/bNRPYVA.gif") !important;
+    background-position-x: 75%;
+}
+/* GUNDAM HATHAWAY */
+a.favourite[href*="/anime/105595/"] { 
+    background-image: url("https://i.imgur.com/artSA28.gif") !important;
+	background-size: 348%;
+    background-position-y: 66%;
+    background-position-x: 47%;
+}
+
+/* A2 */
+a.favourite[href*="/character/138298/"] { 
+    background-image: url("https://i.imgur.com/VwYxlGd.jpg") !important;
+	background-size: 264%;
+    background-position-y: 50%;
+    background-position-x: 76%;
+}
+/* c-18 */
+a.favourite[href*="/character/4318/"] { 
+    background-image: url("https://i.imgur.com/II2jYbo.jpg") !important;
+	background-size: 201%;
+    background-position-y: 64%;
+    background-position-x: 41%;
+}
+/* GANTZ */
+a.favourite[href*="/character/5523/"] { 
+    background-image: url("https://i.imgur.com/qRdAd2e.jpg") !important;
+	background-size: 237%;
+    background-position-y: 49%;
+    background-position-x: 47%;
+}
+/* LUCY */
+a.favourite[href*="/character/284157/"] { 
+    background-image: url("https://i.imgur.com/9h86pzQ.jpg") !important;
+	background-size: 187%;
+    background-position-y: 57%;
+}
+/* GUNDAM SECELIA*/
+a.favourite[href*="/character/288851/"] { 
+    background-image: url("https://i.imgur.com/Kru9HUo.jpg") !important;
+	background-size: 187%;
+    background-position-y: 60%;
+    background-position-x: 41%;
+}
+
+/* ------------------------------------------------------------------ */
+
+:root{
+    --background: url("https://i.imgur.com/FKfU2u4.png");
+}
+
+body {
+    background: #000000 var(--background) center/100% fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: auto 100%  !important;
+}
+
+
+/* ------ HOKAZE ---------------------------------------------------- */
+
+/* Settings */
+:root, .site-theme-dark, .site-theme-contrast {
+  /* General Settings */
+  --hokaze-br: 10px; /* Global Border Radius */
+  --hokaze-pv: 30px; /* Vertical Content Padding */
+  --hokaze-ph: 30px; /* Horizontal Content Padding */
+  --hokaze-bt: 0.3;  /* Content Background Transparency*/
+  --hokaze-nr: 30px; /* Navbar Border Radius */
+  --hokaze-nl: 60%;  /* Navbar Length */
+  --hokaze-sb: 4px;  /* Scrollbar Width */
+  --hokaze-vo: 1.0;  /* Opacity For Various Elements */
+  --hokaze-vs: 0.975;  /* Scale For Various Elements */
+  --hokaze-vb: 2px;  /* Various Avatar Border Thickness */
+  --hokaze-sr: 4px;  /* Social Page Border Thickness */
+  --hokaze-fr: 30px; /* Footer Border Radius */
+  --hokaze-fl: 85%;  /* Footer Length */
+  --hokaze-bl: 4px;  /* Background 'Window' Blur Amount */
+  --hokaze-rs: 1.025; /* Scaling For Load More Button And Activity Input */
+  --hokaze-gs: var(--color-blue);    /* Stats Wrap Gradient Start Color */
+  --hokaze-ge: var(--color-blue-dim);    /* Stats Wrap Gradient End Color */
+  --hokaze-vt: all 0.5s ease-in-out; /* Transition For Various Elements */
+  --hokaze-li: initial; /* Anilist Logo Source */ 
+  --hokaze-lb: 0px;     /* Anilist Logo Border Thickness */
+  --hokaze-lr: 0px;     /* Anilist Logo Border Radius */
+  --hokaze-ls: 1.2;     /* Anilist Logo Hover Scaling */
+  --hokaze-bs: rgba(0, 0, 0, 0.07) 0px 1px 2px, /* Box Shadow */
+               rgba(0, 0, 0, 0.07) 0px 2px 4px,
+               rgba(0, 0, 0, 0.07) 0px 4px 8px,
+               rgba(0, 0, 0, 0.07) 0px 8px 16px;
+  --hokaze-ns: rgba(0, 0, 0, 0.07) 0px 1px 2px, /* Box Shadow For Navbar */
+               rgba(0, 0, 0, 0.07) 0px 2px 4px;
+  
+  /* Avatar Settings */
+  --hokaze-as: 200px;   /* Avatar Size: One Value = Square, Two Values = Rectangle */
+  --hokaze-ap: 0% 0%; /* Inner Avatar Position */
+  --hokaze-ai: 100%;
+  --hokaze-ab: 0px;   /* Avatar Border Thickness */
+  --hokaze-ar: 0px;  /* Avatar Border Radius */
+  --hokaze-at: 0; /* Avatar Hover Transition */
+  --hokaze-av: url(""); /* Avatar Picture Link */
+  --hokaze-ah: 1; /* Avatar Hover Scale */
+  
+  /* Quick Maths - !DON'T TOUCH! 
+  --hokaze-brt: var(--hokaze-br) var(--hokaze-br) 0 0;
+  --hokaze-brb: 0 0 var(--hokaze-br) var(--hokaze-br);
+  --hokaze-bra: var(--hokaze-br) var(--hokaze-br) var(--hokaze-br) var(--hokaze-br);*/
+  --hokaze-pdh: var(--hokaze-pv) var(--hokaze-ph);
+  --hokaze-maw: 70%;
+  --hokaze-abs: var(--hokaze-ab) solid rgb(var(--color-foreground));
+  --hokaze-nbr: 0 0 var(--hokaze-nr) var(--hokaze-nr);
+  --hokaze-nbl: calc((100% - var(--hokaze-nl)) / 2);
+  --hokaze-fbr: var(--hokaze-fr) var(--hokaze-fr) 0 0;
+  --hokaze-fbl: calc((100% - var(--hokaze-fl)) / 2);
+  --hokaze-bch: 450px;
+  --hokaze-bcc: calc(var(--hokaze-bch) / 2);
+  --hokaze-bctc: calc(var(--hokaze-bcc) - 36px / 2 );
+  --hokaze-vab: var(--hokaze-vb) solid rgb(var(--color-background));  
+  --hokaze-sab: var(--hokaze-sr) solid rgb(var(--color-background));
+  --hokaze-lob: var(--hokaze-lb) solid rgb(var(--color-blue));
+}
+
+/* Light Theme
+:root {
+    --color-background:             217,219,227;
+    --color-foreground:             230,232,240;
+    --color-foreground-grey:        225,227,235;
+    --color-foreground-grey-dark:   217,219,227;
+    --color-text:                   91,87,84;
+    --color-text-light:             106,102,99;
+    --color-text-lighter:           121,117,114;
+    --color-text-bright:            226, 233, 229;
+    --color-blue:                   169, 126, 73;
+    --color-blue-dim:               191,180,164;
+    --color-green:                  169, 126, 73;
+
+}
+
+Dark Theme
+.site-theme-dark {
+    --color-background:             15, 23, 25;
+    --color-foreground:             28, 36, 38;
+    --color-foreground-grey:        20, 28, 30;
+    --color-foreground-grey-dark:   15, 23, 25;
+    --color-text:                   141, 138, 134; 
+    --color-text-light:             156, 153, 149;
+    --color-text-lighter:           161, 168, 164;
+    --color-text-bright:            176, 183, 179;
+    --color-blue:                   169, 126, 73;
+    --color-blue-dim:               91, 75, 64;
+    --color-green:                  169, 126, 73;
+} */
+
+/* Code */
+/* Body */
+body {
+    background-image: url("https://i.imgur.com/eoMtR7h.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Header */
+#nav {
+  background: rgb(var(--color-foreground)) !important;
+  color: rgb(var(--color-text-light)) !important;
+  border-radius: var(--hokaze-nbr);
+  left: var(--hokaze-nbl);
+  width: var(--hokaze-nl);
+  box-shadow: var(--hokaze-bs);
+}
+.hide, .nav.nav-unscoped {
+  /* top: -60px !important; */
+}
+.nav.nav-unscoped.transparent, .nav:hover {
+  top: 0px !important;
+}
+.links > .link:hover {
+  color: rgb(var(--color-blue));
+}
+#app > .progress {
+    background-color: rgb(var(--color-blue));
+}
+.logo > img {
+    /*content: var(--hokaze-li);*/
+	content: url("https://i.imgur.com/gGpUZBO.png") !important;
+    border-radius: var(--hokaze-lr);
+    border: var(--hokaze-lob);
+    transition: var(--hokaze-vt);
+}
+#nav > div.wrap > a > img[data-v-62eacfff] {
+	height: auto; !important;
+}
+.logo > img:hover {
+    transform: scale(var(--hokaze-ls));
+}
+
+/* Banner */
+.banner {
+  visibility: hidden;
+}
+.banner > .container {
+  visibility: visible;
+  justify-content: center;
+  padding-left: 150px;
+}
+.container > .banner-content {
+  height: var(--hokaze-bch);
+  /*width: 0;
+   align-items: center;
+  justify-content: center; */
+}
+.banner-content > .avatar {
+  /*width: 0;
+  height: 0;
+  padding: var(--hokaze-as);
+  background: var(--hokaze-av);
+  background-size: var(--hokaze-ai);
+  background-repeat: no-repeat;
+  background-position: var(--hokaze-ap);
+  border-radius: var(--hokaze-ar);
+  border: var(--hokaze-abs);
+  box-shadow: var(--hokaze-bs);
+  transition: var(--hokaze-at);
+  z-index: 100;*/
+  zoom: 125%;
+}
+.banner-content > .name-wrapper {
+  /*position: absolute;
+  transform: translateY(8vh);
+  z-index: 110;
+  opacity: 1;
+  pointer-events: none;*/
+}
+.banner-content > .name-wrapper > .name {
+  /* transition: var(--hokaze-vt); */
+}
+.banner-content > .follower-badge {
+  position: absolute;
+  bottom: var(--hokaze-bctc);
+  margin: 0;
+  padding: 11.5px 10px;
+  transition: var(--hokaze-at);
+}
+.banner-content > .follower-badge:hover {
+  background: rgba(var(--color-blue),1);
+}
+.banner-content:hover > .follower-badge {
+  transform: translateX(-170px);
+}
+.banner-content:hover > .name-wrapper > .name {
+  /* opacity: 0; */
+}
+.banner-content > .actions {
+  position: absolute;
+  bottom: var(--hokaze-bctc);
+  margin: 0;
+  padding: 0;
+  transition: var(--hokaze-at);
+}
+.actions > .nav-btn {
+  width: 84.14px;
+  transition: var(--hokaze-at);
+}
+.banner-content:hover > .avatar {
+  /*border-color: rgb(var(--color-blue));
+   transform: scale(var(--hokaze-ah)); */
+}
+.banner-content:hover > .actions {
+  transform: translateX(183px);
+}
+
+
+/* Container */
+.header-wrap > .nav-wrap {
+  max-width: var(--hokaze-maw);
+  margin: 0 auto;
+  border-radius: var(--hokaze-brt);
+  box-shadow: var(--hokaze-ns);
+  position: relative;
+}
+.nav > .link {
+  position: relative;
+}
+.nav > .link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 2px;
+  width: 0;
+  background: rgb(var(--color-blue));
+  transition: all 0.3s ease-in-out;
+}
+.nav > .router-link-active::after {
+  left: 0;
+  width: 100%;
+  background: rgb(var(--color-blue-dim));
+}
+.nav > .link:hover::after {
+  left: 0;
+  width: 100%;
+  background: rgb(var(--color-blue));
+}
+.content.container {
+  /*background: rgba(var(--color-foreground-grey-dark),var(--hokaze-bt));*/
+  max-width: var(--hokaze-maw);
+  /*padding: var(--hokaze-pdh);*/
+  border-radius: var(--hokaze-brb);
+  /*box-shadow: var(--hokaze-bs);*/
+  /*backdrop-filter: blur(var(--hokaze-bl));*/
+  background: rgb(6 12 19 / -43%);
+  padding: 30px 0px 30px 0px;
+}
+
+/* Content - Overview */
+.content > .overview {
+  margin-top: 0;
+}
+.stats-wrap > .content-wrap, .about > .content-wrap, .desktop > .content-wrap, .activity-entry > .wrap, .favourites-wrap > .favourite, .scroller > .load-more, .user-page-unscoped .markdown-editor, .el-textarea__inner, .input {
+  border-radius: var(--hokaze-bra) !important;
+  box-shadow: var(--hokaze-bs);
+  transition: var(--hokaze-vt);
+}
+.history-day:hover {
+  transform: scale(1.2);
+}
+.progress > .bar {
+    background: linear-gradient(270deg, rgb(117 136 145), rgb(65 91 119)) !important;
+}
+.genre > .name, .favourite {
+/*opacity: var(--hokaze-vo);*/  
+ /*  transform: scale(var(--hokaze-vs)); */
+  /* transition: var(--hokaze-vt); */
+}
+.percentage {
+  opacity: var(--hokaze-vo);
+}
+.genre > .name:hover, .percentage:hover, .favourite:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+.overview .content-wrap {
+  /* transform: scale(var(--hokaze-vs)); */
+}
+.overview .content-wrap:hover {
+  /* transform: scale(1); */
+}
+.activity-entry > .wrap {
+  /* transition: var(--hokaze-vt); */
+  max-height: none /*70px*/;
+}
+.activity-entry:hover .wrap {
+  /* transform: scale(1.025);  */
+  max-height: none /*663px*/; /*  663 560px max height, 28px margin, 70px header, 5px idk? kek */
+}
+.wrap > .text {
+  padding-top: 15px;
+}
+.text > .activity-markdown > .markdown {
+  max-height: none;
+}
+.header > .avatar, .list > .cover {
+  opacity: var(--hokaze-vo);
+  transition: var(--hokaze-vt);
+}
+.wrap:hover .cover {
+  opacity: 1;
+}
+.header > .avatar, .users > .user {
+  /*opacity: var(--hokaze-vo);
+  transition: var(--hokaze-vt);
+  border-radius: var(--hokaze-ar) !important;
+  border: var(--hokaze-vab);*/
+}
+.wrap:hover .header > .avatar, .users > .user:hover, .reply:hover .header > .avatar {
+  /* opacity: 1;
+  border-color: rgb(var(--color-blue)); */
+}
+.header > .name {
+ /*  transition: var(--hokaze-vt); */
+}
+.wrap:hover .header > .name {
+  opacity: 1;
+  font-weight: bold;
+}
+.activity-entry, .input, svg:not(:root).svg-inline--fa {
+  transition: var(--hokaze-vt);
+}
+.list .title, .input .el-textarea__inner {
+  opacity: var(--hokaze-vo);
+  /*transition: var(--hokaze-vt);*/
+}
+.activity-manga_list:hover, .activity-anime_list:hover {
+  /* transform: scale(1.025);   */
+}
+.activity-manga_list:hover .title, .activity-anime_list:hover .title {
+  opacity: 1;
+  font-weight: bold;
+}
+.input:hover {
+  /* transform: scale(var(--hokaze-rs)); */
+}
+.input:hover .el-textarea__inner {
+  opacity: 1;
+}
+svg:not(:root).svg-inline--fa:hover {
+  /* transform: scale(1.2); */
+}
+.scroller > .load-more {
+  margin-top: 0;
+}
+.scroller > .load-more:hover {
+  color: rgb(var(--color-blue));
+  box-shadow: var(--hokaze-bs);
+  transform: scale(var(--hokaze-rs));
+}
+.activity-replies > .reply {
+  border-radius: var(--hokaze-br);
+}
+.reply:hover .header > .name {
+  opacity: 1;
+  font-weight: bold;
+}
+
+/* Content - Anime List / Manga List */
+.content > .medialist {
+  margin-top: 0;
+}
+.filter-group>span:hover {
+  background: rgb(var(--color-foreground));
+  color: rgb(var(--color-blue));
+}
+.medialist.table .entry:hover .title a {
+  font-weight: bold;
+}
+
+/* Content - Favorites */
+/*.favourites {
+  margin-top: 0 !important;
+}*/
+
+#app > div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(4) > h2 > div {
+  visibility: hidden;
+}
+
+/* Content - Stats */
+.content > .stats {
+  margin-top: 0;
+}
+.filter-group a:hover {
+  background: rgb(var(--color-foreground));
+  color: rgb(var(--color-blue));
+}
+
+/* Content - Social */
+.content > .user-social {
+  margin-top: 0;
+}
+.filter-group span:hover {
+  background: rgb(var(--color-foreground));
+  color: rgb(var(--color-blue));
+}
+.follow-card {
+  opacity: var(--hokaze-vo);
+  border-radius: var(--hokaze-ar);
+  transition: var(--hokaze-vt);
+}
+.follow-card > .avatar {
+  border: var(--hokaze-sab);
+  border-radius: var(--hokaze-ar) !important;
+  transition: var(--hokaze-vt);
+}
+.follow-card:hover, .follow-card > .avatar:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  border-color: rgb(var(--color-blue));
+}
+.follow-card > .name {
+      background: rgba(var(--color-shadow),.4);
+}
+
+/* Content - Reviews */
+.content .review-wrap {
+  margin-top: 0;
+}
+
+/* Footer */
+.footer {
+	display: none;
+}
+.wrap > .footer {
+  position: relative;
+  background: rgb(var(--color-foreground));
+  border-radius: var(--hokaze-fbr);
+  left: var(--hokaze-fbl);
+  width: var(--hokaze-fl);
+  box-shadow: var(--hokaze-bs);
+}
+.footer > .container {
+    justify-content: space-between;
+}
+.theme-selector > .dark {
+  background: #000;
+}
+.theme-selector > h2 {
+  color: rgb(var(--color-blue));
+}
+a, a:visited {
+    color: rgb(var(--color-text));
+}
+
+/* Sorry Hoh */
+.hohColourPicker, .theme-selector > .contrast, .hohDismiss {
+  display: none;
+}
+.footer .links {
+    margin-left: 0;
+    transform: translate(0px,0px);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+width: var(--hokaze-sb);
+height: var(--hokaze-sb);
+}
+::-webkit-scrollbar-thumb {
+background: rgba(var(--color-text-light),.5);
+border-radius: var(--hokaze-br);
+}
+::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb:active {
+background: rgb(var(--color-blue));
+}
+body::-webkit-scrollbar-track {
+background: rgb(var(--color-background));
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Dropdown Integration */
+:root, .site-theme-dark, .site-theme-contrast {
+    --color-background-100: var(--color-foreground);
+    --color-background-200: var(--color-background);
+    --color-gray-100: var(--color-foreground);
+    --color-gray-600: var(--color-text-light);
+    --color-gray-700: var(--color-text-light);
+    --color-gray-800: var(--color-blue);
+    --color-gray-900: var(--color-blue);
+}
+
+div.desktop:nth-of-type(2) {
+	display: none;
+}
+div.desktop:nth-of-type(3) {
+	display: none;
+}
+
+div.activity-entry.hohPinned {
+	display: none;
+}
+
+div.activity-entry.hohPinned.activity-text>.wrap>.text>.header {
+	display: none;
+}
+div.activity-entry.hohPinned.activity-text>.wrap>.time>.hohTimeGeneric {
+	display: none;
+}
+
+div.activity-entry.hohPinned.activity-text > div > div.text > div.activity-markdown > div {
+   margin-top: 0px; !important
+}
+
+div.activity-entry.hohPinned.activity-text > div > div.text > div.activity-markdown > div {
+    margin-bottom: 0px; !important
+    margin-top: 0px; !important
+    overflow: hidden;
+}
+
+div.activity-entry.hohPinned.activity-text > div > div.text > div.activity-markdown > div > center > a > img { 
+	zoom: 130%;
+	/*filter: url('data:image/svg+xml,\
+		<svg xmlns="http://www.w3.org/2000/svg">\
+		<filter id="purple-sepia" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">\
+			<feColorMatrix type="matrix" values=".33 .33 .33 0 0 .33 .33 .33 0 0 .33 .33 .33 0 0 0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>\
+			<feComponentTransfer in="colormatrix" result="componentTransfer">\
+			  <feFuncR type="table" tableValues="0.43 0.97"/>\
+			  <feFuncG type="table" tableValues="0.06 0.88"/>\
+			  <feFuncB type="table" tableValues="0.37 0.79"/>\
+			  <feFuncA type="table" tableValues="0 1"/>\
+			</feComponentTransfer>\
+			<feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>\
+		  </filter>\
+		</svg>#purple-sepia') hue-rotate(321deg) contrast(1.5) grayscale(0.3) saturate(0.6);
+    transition: all 0.5s ease;
+}
+div.activity-entry.hohPinned.activity-text > div > div.text > div.activity-markdown > div > center > a > img:hover {
+   -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   filter: grayscale(0%);*/
+}
+
+div.activity-entry.hohPinned.activity-text > div > div.actions {
+	display: none;
+}
+div.activity-entry.hohPinned.activity-text > div > div.time {
+	display: none; !important
+}
+
+div.activity-entry.hohPinned > div.wrap {
+	max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.activity-feed>div>div.wrap>div.list.small>a::before {
+    content: "";
+    background: inherit;
+    width: 17%;
+    height: 113%;
+    display: block;
+    z-index: -3;
+    position: absolute;
+    top: -5px;
+    left: 14px;
+    -webkit-filter: blur(1.7px);
+}
+
+.activity-anime_list .wrap, .activity-manga_list .wrap {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0) -22%, rgb(19 28 45 / 48%) 11%, rgba(21, 31, 46, .9836309523809523) 19%, #151f2e 72%);
+	color: #e3e3e3;
+}
+
+/* ANIME FAVS IN PROFILE */
+/* .overview > div:nth-child(1) > div:nth-child(4) > h2 { 
+	visibility: hidden;
+}
+.overview > div:nth-child(1) > div:nth-child(4) > h2:before {
+	content:'';
+    clear:both;
+    height:20px;
+    width:20px;
+    display:block;
+    background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWhhaXpsZ3FiOXFxejB3YWRjaXp0ZHNrNHhwY3N2MHNndXpwM21hNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/vaOhquJA6NEaOQnzr4/giphy.gif);
+    background-size:100%;
+	visibility: visible;
+	zoom: 250%;
+}/*
+
+/* MANGA FAVS IN PROFILE */
+/*.overview > div:nth-child(1) > div:nth-child(5) > h2 { 
+	visibility: hidden;
+}
+.overview > div:nth-child(1) > div:nth-child(5) > h2:before {
+	content: "";
+	visibility: visible;
+}*/
+
+#app > div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(4) > div {
+        margin-bottom: 0px;
+}
+#app > div.page-content > div > div.content.container > div > div:nth-child(1) > div:nth-child(5) > h2 {
+  /*margin-bottom: 0px;*/
+	margin-top: -5px
+}
+
+.overview > div:nth-child(1) > div:nth-child(6) > h2 {
+	visibility: hidden;
+}
+.overview > div:nth-child(1) > div:nth-child(6) > h2:before {
+	content: "Mommies";
+	visibility: visible;
+}
+
+.overview > div:nth-child(1) > div:nth-child(7) > h2 {
+	visibility: hidden;
+}
+.overview > div:nth-child(1) > div:nth-child(7) > h2:before {
+	content: "GOATs";
+	visibility: visible;
+}
+
+/*
+#app > div.page-content > div > div.header-wrap > div.nav-wrap > div::after {
+	background-image: url(https://i.imgur.com/gGpUZBO.png);
+    background-size: 150px 150px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    content: "";
+	margin: 15px 0px -8px 15px;
+}*/
+
+a.favourite {
+	filter: url('data:image/svg+xml,\
+    <svg xmlns="http://www.w3.org/2000/svg">\
+	<filter id="purple-sepia" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">\
+        <feColorMatrix type="matrix" values=".33 .33 .33 0 0 .33 .33 .33 0 0 .33 .33 .33 0 0 0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>\
+        <feComponentTransfer in="colormatrix" result="componentTransfer">\
+          <feFuncR type="table" tableValues="0.43 0.97"/>\
+          <feFuncG type="table" tableValues="0.06 0.88"/>\
+          <feFuncB type="table" tableValues="0.37 0.79"/>\
+          <feFuncA type="table" tableValues="0 1"/>\
+        </feComponentTransfer>\
+        <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>\
+      </filter>\
+	</svg>#purple-sepia') hue-rotate(321deg) contrast(1.5) grayscale(0.3) saturate(0.6);
+    transition: all 0.5s ease;
+}
+
+a.favourite:hover {
+   -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   filter: grayscale(0%);
+   
+  /*filter: url('data:image/svg+xml,\
+    <svg xmlns="http://www.w3.org/2000/svg">\
+      <filter id="waves" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB">\
+        <feTurbulence type="turbulence" baseFrequency="0.01 0.01" numOctaves="1" seed="1" stitchTiles="noStitch" result="turbulence" />\
+        <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="20" xChannelSelector="G" yChannelSelector="A" result="displacementMap" />\
+      </filter>\
+    </svg>#waves');*/
+	
+ }
+
+a.favourite[href*="/anime/177699/"] {
+	filter: url('data:image/svg+xml,\
+    <svg xmlns="http://www.w3.org/2000/svg">\
+	<filter id="purple-sepia" x="-10%" y="-10%" width="120%" height="120%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">\
+        <feColorMatrix type="matrix" values=".33 .33 .33 0 0 .33 .33 .33 0 0 .33 .33 .33 0 0 0 0 0 1 0" in="SourceGraphic" result="colormatrix"/>\
+        <feComponentTransfer in="colormatrix" result="componentTransfer">\
+          <feFuncR type="table" tableValues="0.43 0.97"/>\
+          <feFuncG type="table" tableValues="0.06 0.88"/>\
+          <feFuncB type="table" tableValues="0.37 0.79"/>\
+          <feFuncA type="table" tableValues="0 1"/>\
+        </feComponentTransfer>\
+        <feBlend mode="normal" in="componentTransfer" in2="SourceGraphic" result="blend"/>\
+      </filter>\
+	</svg>#purple-sepia') hue-rotate(321deg) contrast(1.95) grayscale(0.3) saturate(0.6);
+    transition: all 0.5s ease;
+}
+
+a.favourite[href*="/anime/177699/"]:hover {
+   -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   filter: grayscale(0%);
+   
+  /*filter: url('data:image/svg+xml,\
+    <svg xmlns="http://www.w3.org/2000/svg">\
+      <filter id="waves" x="-20%" y="-20%" width="140%" height="140%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="linearRGB">\
+        <feTurbulence type="turbulence" baseFrequency="0.01 0.01" numOctaves="1" seed="1" stitchTiles="noStitch" result="turbulence" />\
+        <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="20" xChannelSelector="G" yChannelSelector="A" result="displacementMap" />\
+      </filter>\
+    </svg>#waves');*/
+	
+ }
+
+ .hohSocialFeed {
+    visibility: hidden;
+ }
