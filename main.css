@@ -242,6 +242,22 @@ a.favourite[href*="/character/288851/"] {
   background-position-x: 41%;
 }
 
+/* Blame!: Sanakan */
+a.favourite[href*="/character/10882/"] {
+  background-image: url(https://i.imgur.com/oMp697F.jpeg) !important;
+  background-size: 552%;
+  background-position-y: 2%;
+  background-position-x: 31%;
+}
+
+/* Blame!: PCell */
+a.favourite[href*="/character/18979/"] {
+  background-image: url(https://i.imgur.com/cG5WmxM.jpeg) !important;
+  background-size: 124%;
+  background-position-y: 18%;
+}
+      
+
 
 /* ------------------------------------------------------------
    4. BACKGROUND
